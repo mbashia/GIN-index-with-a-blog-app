@@ -2,7 +2,7 @@
 
 A small Phoenix LiveView blog built to answer one question: **why does a B-tree index do nothing for tag/JSON filtering in Postgres, and what does GIN actually fix?**
 
-This repo is the companion code for [the article](#) walking through that problem  seeded with 500,000 posts, each with an array of tags and a JSONB metadata field, so you can reproduce the `EXPLAIN ANALYZE` results yourself.
+This repo is the companion code for [the article](https://medium.com/@mbashiavictor/why-my-postgres-queries-were-slow-a-b-tree-vs-gin-index-6305a7f54ed0) walking through that problem — seeded with 500,000 posts, each with an array of tags and a JSONB metadata field, so you can reproduce the `EXPLAIN ANALYZE` results yourself.
 
 ## Stack
 
